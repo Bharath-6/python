@@ -106,3 +106,21 @@ print(O,L/M) #0.0 0.5 - 0.0 is a int only not float
 # A,B=12,-5
 # c=A//B
 # print(c) Ans - (-3)
+
+"""+ and + = +
+- and - = +
++ and - = -
+- and + = + """
+
+# Remainder is neagative when denominator is neagative
+# A,B= -5,2
+# C = A%B
+# print(c) output:1
+
+# A,B= 5,2
+# C = A%B
+# print(c) output:1
+
+# A,B= -5,2
+# C = A%B
+# print(c) output: - 1
