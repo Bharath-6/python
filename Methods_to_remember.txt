@@ -1,0 +1,18 @@
+from collections import Counter
+# Count the occurrences of each element using Counter
+    counter = Counter(arr)
+
+    # Searching for the majority element
+    for num, count in counter.items():
+        if count > (n // 2):
+            return num
+
+#finding minimum and maximum
+h = max(1,4)
+m = min(1,4)
+print(h)
+print(m)
+
+#random infinity negativ value
+minPrice = float('inf')
+maxi = float('-inf')
